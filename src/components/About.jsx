@@ -1,16 +1,17 @@
 import React from "react";
+import Sliderobject from "./Sliderobject";
 
 const About = () => {
   return (
     <div
       data-scroll
-      data-scroll-speed="-.2"
+      data-scroll-speed="-.0"
       className="py-20 w-full rounded-t-3xl text-black bg-[#CDEA68]"
     >
       <h1 className="font-['Neue_Montreal'] text-[4vw] leading-[4.5vw] px-10 tracking-tight">
-        Ochi is a strategic partner for fast-growing tech businesses that need
+         Ochi is a strategic partner for fast-growing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great
-        people.
+        people. 
       </h1>
       <div className="w-full p-20 border-t-[1px] mt-20 border-[#a1b562] flex">
         <div className="w-1/2">
@@ -20,7 +21,7 @@ const About = () => {
             aria-label="Read more about our approach"
           >
             Read More
-            <div className="w-2 h-2 bg-zinc-100 rounded-full "></div>
+            <div className="w-2 h-2 bg-zinc-100 rounded-full hover:w-10 hover:h-10 "></div>
           </button>
         </div>
         <div className="w-1/2 h-[70vh] rounded-3xl bg-red-700 overflow-hidden">

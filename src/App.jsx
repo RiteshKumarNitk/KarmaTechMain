@@ -8,6 +8,7 @@ import Featured from "./components/Featured";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import LocomotiveScroll from 'locomotive-scroll';
+import Sliderobject from "./components/Sliderobject";
 
 const App = () => {
   const scrollRef = useRef(null);
@@ -33,6 +34,7 @@ const App = () => {
       <About />
       <Eyes />
       <Featured />
+      <Sliderobject/>
       <Cards />
       <Footer />
     </div>

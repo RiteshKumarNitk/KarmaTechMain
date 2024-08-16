@@ -4,7 +4,11 @@ import { FaArrowUpLong } from "react-icons/fa6";
 import "./smallComponts/textgradient.css";
 const LendingPage = () => {
   return (
-    <div data-scroll data-scroll-speed="-.2" className="w-full h-screen bg-zinc-900 pt-1">
+    <div
+      data-scroll
+      data-scroll-speed="-.2"
+      className="w-full h-screen bg-zinc-900 pt-1"
+    >
       <div className="textstructure mt-40 px-20">
         {["Professional", "Website", "With Us"].map((item, index) => {
           // eslint-disable-next-line react/jsx-key
@@ -13,11 +17,16 @@ const LendingPage = () => {
             <div className="masker overflow-hidden ">
               <div className="w-fit flex items-center">
                 {index === 1 && (
-                  <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76,0,0.24,1], duration:1}}  className="w-[9vw] bg-center h-[5.7vw] mr-[1vw] rounded-lg flex items-center bg-cover bg-[url('https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]"></motion.div>
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "9vw" }}
+                    transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+                    className="w-[9vw] bg-center h-[5.7vw] mr-[1vw] rounded-lg flex items-center bg-cover bg-[url('https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]"
+                  ></motion.div>
                 )}
-                <div className="uppercase text-[8vw] font-['Gilroy'] leading-[7vw] font-bold bg-gradient-to-r from-[#004D43] via-[#CDAFAE] to-[#CDEA68] bg-clip-text text-transparent animate-gradient">
-                {item}
-              </div>
+                <div className="uppercase text-[8vw] font-['Gilroy'] leading-[7vw] font-bold bg-gradient-to-r from-[#ebd197] via-[#b48811]  to-[#a2790d]   bg-clip-text text-transparent animate-gradient">
+                  {item}
+                </div>
               </div>
             </div>
           );

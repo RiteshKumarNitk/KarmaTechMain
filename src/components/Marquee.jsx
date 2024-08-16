@@ -6,7 +6,7 @@ const Marquee = () => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed=".1"
+      data-scroll-speed=""
       className="w-full py-20 rounded-t-3xl bg-[#004D43]"
     >
       <div className="text border-t-2 border-b-2 border-zinc-300 flex gap-10 overflow-hidden whitespace-nowrap">
@@ -17,7 +17,7 @@ const Marquee = () => {
           transition={{
             ease: "linear",
             repeat: Infinity,
-            duration: 20, // Longer duration for smoother scroll
+            duration: 5, // Longer duration for smoother scroll
           }}
         >
           <h1 className='text-[17vw] whitespace-nowrap leading-none font-["Gilroy"] font-semibold uppercase pt-0 -mb-5'>
